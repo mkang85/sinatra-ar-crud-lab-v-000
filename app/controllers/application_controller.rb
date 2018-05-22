@@ -50,4 +50,5 @@ class ApplicationController < Sinatra::Base
      @post.delete
      redirect to '/posts'
    end
+   
 end
